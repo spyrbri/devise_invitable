@@ -11,6 +11,7 @@ group :test do
   platforms :ruby do
     gem "sqlite3", "~> 1.3.4"
     gem "bson_ext", "~> 1.3"
+    gem 'coveralls', require: false
   end
   platforms :rbx do
     gem "rubysl"
